@@ -75,6 +75,7 @@ My artillery Genius is working perfect but... I want to connect it with <a href=
 
 Why should you update your artillery firmware?
 
+  - Input shaping
   - Save to EEPROM
   - P.I.D. Autotune option for hotend – also added  tuned PID settings for hotend and heatbed.
   - Manual Bed leveling
@@ -178,6 +179,15 @@ I recommend you start working with this new firmwares following some calibration
 https://3dprintbeginner.com/3d-printer-calibration/
 
 And start working with it to become familiar with all functionalities.
+
+If you don´t know how to do calibrate Input Shaping, I found this description in MarlinFW quite useful:
+
+https://marlinfw.org/docs/gcode/M593.html
+
+Also in this Youtube video you can find plenty useful info:
+
+https://www.youtube.com/watch?v=7VLuz3hReYw
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
