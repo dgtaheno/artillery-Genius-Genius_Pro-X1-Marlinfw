@@ -79,7 +79,7 @@ Why should you update your artillery firmware?
   - Save to EEPROM
   - P.I.D. Autotune option for hotend – also added  tuned PID settings for hotend and heatbed.
   - Manual Bed leveling
-  - Linear Advance 1.5 enabled and configured K Factor to 0.13
+  - Linear Advance 1.5 enabled and configured K Factor to 0.13 (this is only activated in Marlin 2.1.2-la.hex)
   - S Curve Acceleration and Adaptive Step Smoothing is enabled
   - Added preheat presets for different types of materials.
   - Babystepping Z enabled
