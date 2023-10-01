@@ -93,7 +93,7 @@ In order to run Marlin firmware I need also to customize and update Artillery Ge
 
 So the following files were generated for this project:
 
-<li><a href="https://github.com/dgtaheno/artillery-Genius/blob/main/Marlin%202.0.9.3.hex">Marlin 2.1.2.hex</a></li>
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/b98006a78a60b038f43241407245e380fea344b1/Marlin%202.1.2.hex">Marlin 2.1.2.hex</a></li>
 <li><a href="https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -142,10 +142,10 @@ Or if you already installed the TFT firmware it is so much easier.
 
 First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
-  1. Download the [Marlin 2.0.9.3.hex](https://github.com/dgtaheno/artillery-Genius/blob/main/Marlin%202.0.9.3.hex) for Artillery Genius firmware
+  1. Download the [Marlin 2.1.2.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/b98006a78a60b038f43241407245e380fea344b1/Marlin%202.1.2.hex) for Artillery Genius firmware
   2. Open Prusa Slicer
   3. Go to Configuration -> Flash printer firmware
-  4. Select the Marlin 2.0.9.3.hex file provided, and choose the correct serial port for your printer.
+  4. Select the Marlin 2.1.2.hex file provided, and choose the correct serial port for your printer.
   5. Click Flash! and wait for the process to finish.
 
   After flashing the firmware, make sure you first run the [G-Code](https://github.com/dgtaheno/artillery-Genius/blob/main/Reset%20Settings.gcode) provided, to reset to factory defaults and clear EEPROM. Copy the .gcode file on your SD Card and “print” it.
@@ -196,7 +196,7 @@ https://www.youtube.com/watch?v=7VLuz3hReYw
 ## Roadmap
 
 - [x] Create initial README.md
-- [x] Customize and compile Marlin 2.0.9.3 firmware for Artillery Genius 3D printer.
+- [x] Customize and compile Marlin 2.1.2 firmware for Artillery Genius 3D printer.
 - [x] Customize and compile TFT firmware.
 - [x] Add GNU License.
 - [x] Add updated REDAME.md
