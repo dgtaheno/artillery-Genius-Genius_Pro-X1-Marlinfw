@@ -23,7 +23,7 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Marlin 2.1.2 Firmware + TFT firmware for Artillery Genius 3D printer </h3>
+  <h3 align="center">Marlin 2.1.2.1 Firmware + TFT firmware for Artillery Genius 3D printer </h3>
 
   <p align="center">
     I decided that I needed to update my Artillery Genius 3-D printer firmware (Marlin + TFT) to the latest version, so what the heck, let´s do a custom firmware for my 3-D printer.
