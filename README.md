@@ -23,7 +23,7 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Marlin 2.1.2.1 Firmware + TFT firmware for Artillery Genius and Genius with BLT/ X1 3D printer </h3>
+  <h3 align="center">Marlin 2.1.2.1 Firmware + TFT firmware for Artillery Genius and Genius with BLT/Genius Pro /X1 3D printer </h3>
 
   <p align="center">
     I decided that I needed to update my Artillery Genius 3-D printer firmware (Marlin + TFT) to the latest version, so what the heck, let´s do a custom firmware for my 3-D printer.
@@ -94,15 +94,22 @@ In order to run Marlin firmware I need also to customize and update Artillery Ge
 So the following files were generated for this project:
 
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex">Marlin 2.1.2.1.hex</a></li>
-<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
-<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Reset%20Settings.gcode">Reset Settings.gcode</a></li>
 
-If you have Artillery Genius with BLTouch:
+
+If you have Artillery Genius with BLTouch(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex">Marlin 2.1.2.1_BLT.hex</a></li>
 
-If you have X1:
+If you have Artillery Genius Pro(not tested, your feedback is appreciated here):
+
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Genius-Pro-X1-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_PRO.bin">Marlin 2.1.2.1_PRO.bin</a></li>
+
+If you have Artillery X1(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex">Marlin 2.1.2.1-X1.hex</a></li>
 
+And these files are general and common for all these versions(Artillery Genius(with and without BLT/Genius Pro / X1)):
+
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Reset%20Settings.gcode">Reset Settings.gcode</a></li>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -150,10 +157,10 @@ Or if you already installed the TFT firmware it is so much easier.
 
 First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
-  1. Download the [Marlin 2.1.2.1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex) for Artillery Genius firmware or [Marlin 2.1.2.1_BLT.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex) if you have BLTouch installed or [Marlin 2.1.2.1-X1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex) if you have X1.
+  1. Download the [Marlin 2.1.2.1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex) for Artillery Genius firmware or [Marlin 2.1.2.1_BLT.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex) if you have Genius with BLTouch installed or [Marlin 2.1.2.1_PRO.bin](https://github.com/dgtaheno/artillery-Genius-Genius-Pro-X1-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_PRO.bin) if you have Genius PRO or [Marlin 2.1.2.1-X1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex) if you have X1.
   2. Open Prusa Slicer
   3. Go to Configuration -> Flash printer firmware
-  4. Select the Marlin 2.1.2.1.hex or 2.1.2.1_BLT.hex(if you have BLTouch installed) or 2.1.2.1-X1.hex(if you have the X1) file provided, and choose the correct serial port for your printer.
+  4. Select the Marlin 2.1.2.1.hex or 2.1.2.1_BLT.hex(if you have BLTouch installed) or 2.1.2.1_PRO.bin(if you have Genius PRO) or 2.1.2.1-X1.hex(if you have the X1) file provided, and choose the correct serial port for your printer.
   5. Click Flash! and wait for the process to finish.
 
   After flashing the firmware, make sure you first run the [G-Code](https://github.com/dgtaheno/artillery-Genius/blob/main/Reset%20Settings.gcode) provided, to reset to factory defaults and clear EEPROM. Copy the .gcode file on your SD Card and “print” it.
@@ -165,8 +172,8 @@ First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
 Second you need to update TFT firmware(Skip this step if already updated):
 
-  1. Download [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/X1.
-  2. Copy the contents of [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/X1 folder in the root of the SD Card.
+  1. Download [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/Genius PRO/X1.
+  2. Copy the contents of [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/Genius PRO/X1 folder in the root of the SD Card.
   3. Plug your SD Card in your printer
   4. Start the printer and wait for the flashing process to finish.
 
@@ -204,7 +211,7 @@ https://www.youtube.com/watch?v=7VLuz3hReYw
 ## Roadmap
 
 - [x] Create initial README.md
-- [x] Customize and compile Marlin 2.1.2.1 firmware for Artillery Genius/X1 3D printer.
+- [x] Customize and compile Marlin 2.1.2.1 firmware for Artillery Genius/Genius PRO/X1 3D printer.
 - [x] Customize and compile TFT firmware.
 - [x] Add GNU License.
 - [x] Add updated REDAME.md
