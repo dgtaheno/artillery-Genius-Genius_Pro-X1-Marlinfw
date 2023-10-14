@@ -23,7 +23,7 @@
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Marlin 2.1.2.1 Firmware + TFT firmware for Artillery Genius 3D printer </h3>
+  <h3 align="center">Marlin 2.1.2.1 Firmware + TFT firmware for Artillery Genius and Genius with BLT/ X1 3D printer </h3>
 
   <p align="center">
     I decided that I needed to update my Artillery Genius 3-D printer firmware (Marlin + TFT) to the latest version, so what the heck, let´s do a custom firmware for my 3-D printer.
@@ -97,9 +97,11 @@ So the following files were generated for this project:
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Reset%20Settings.gcode">Reset Settings.gcode</a></li>
 
-If you have BLTouch:
+If you have Artillery Genius with BLTouch:
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex">Marlin 2.1.2.1_BLT.hex</a></li>
 
+If you have X1:
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex">Marlin 2.1.2.1-X1.hex</a></li>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -148,10 +150,10 @@ Or if you already installed the TFT firmware it is so much easier.
 
 First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
-  1. Download the [Marlin 2.1.2.1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex) for Artillery Genius firmware or [Marlin 2.1.2.1_BLT.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex) if you have BLTouch installed.
+  1. Download the [Marlin 2.1.2.1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex) for Artillery Genius firmware or [Marlin 2.1.2.1_BLT.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex) if you have BLTouch installed or [Marlin 2.1.2.1-X1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex) if you have X1.
   2. Open Prusa Slicer
   3. Go to Configuration -> Flash printer firmware
-  4. Select the Marlin 2.1.2.1.hex or 2.1.2.1_BLT.hex(if you have BLTouch installed) file provided, and choose the correct serial port for your printer.
+  4. Select the Marlin 2.1.2.1.hex or 2.1.2.1_BLT.hex(if you have BLTouch installed) or 2.1.2.1-X1.hex(if you have the X1) file provided, and choose the correct serial port for your printer.
   5. Click Flash! and wait for the process to finish.
 
   After flashing the firmware, make sure you first run the [G-Code](https://github.com/dgtaheno/artillery-Genius/blob/main/Reset%20Settings.gcode) provided, to reset to factory defaults and clear EEPROM. Copy the .gcode file on your SD Card and “print” it.
@@ -163,8 +165,8 @@ First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
 Second you need to update TFT firmware(Skip this step if already updated):
 
-  1. Download [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius
-  2. Copy the contents of [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius folder in the root of the SD Card
+  1. Download [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/X1.
+  2. Copy the contents of [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius/X1 folder in the root of the SD Card.
   3. Plug your SD Card in your printer
   4. Start the printer and wait for the flashing process to finish.
 
@@ -186,7 +188,7 @@ https://3dprintbeginner.com/3d-printer-calibration/
 
 And start working with it to become familiar with all functionalities.
 
-If you don´t know how to do calibrate Input Shaping, I found this description in MarlinFW quite useful:
+If you don´t know how to calibrate Input Shaping, I found this description in MarlinFW quite useful:
 
 https://marlinfw.org/docs/gcode/M593.html
 
@@ -202,7 +204,7 @@ https://www.youtube.com/watch?v=7VLuz3hReYw
 ## Roadmap
 
 - [x] Create initial README.md
-- [x] Customize and compile Marlin 2.0.9.3 firmware for Artillery Genius 3D printer.
+- [x] Customize and compile Marlin 2.1.2.1 firmware for Artillery Genius/X1 3D printer.
 - [x] Customize and compile TFT firmware.
 - [x] Add GNU License.
 - [x] Add updated REDAME.md
