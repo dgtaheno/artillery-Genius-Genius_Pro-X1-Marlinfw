@@ -85,7 +85,7 @@ Why should you update your artillery firmware?
   - Babystepping Z enabled
   - Quick Home enabled for faster homing
   - Changed Feedrate and Acceleration values for smooth and silent operation
-  - More release notes https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2
+  - More release notes https://github.com/MarlinFirmware/Marlin/tree/2.1.2.1
 
 So I went directly to https://marlinfw.org/ and learnt how to customize the latest firmware so it is perfectly fitting my 3D printer.
 
@@ -93,8 +93,14 @@ In order to run Marlin firmware I need also to customize and update Artillery Ge
 
 So the following files were generated for this project:
 
-<li><a href="https://github.com/dgtaheno/artillery-Genius/blob/main/Marlin%202.0.9.3.hex">Marlin 2.1.2.hex</a></li>
-<li><a href="https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex">Marlin 2.1.2.1.hex</a></li>
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Reset%20Settings.gcode">Reset Settings.gcode</a></li>
+
+If you have BLTouch:
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex">Marlin 2.1.2.1_BLT.hex</a></li>
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -142,10 +148,10 @@ Or if you already installed the TFT firmware it is so much easier.
 
 First, you need to flash the board firmware. I am using Prusa Slicer to flash.
 
-  1. Download the [Marlin 2.0.9.3.hex](https://github.com/dgtaheno/artillery-Genius/blob/main/Marlin%202.0.9.3.hex) for Artillery Genius firmware
+  1. Download the [Marlin 2.1.2.1.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex) for Artillery Genius firmware or [Marlin 2.1.2.1_BLT.hex](https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex) if you have BLTouch installed.
   2. Open Prusa Slicer
   3. Go to Configuration -> Flash printer firmware
-  4. Select the Marlin 2.0.9.3.hex file provided, and choose the correct serial port for your printer.
+  4. Select the Marlin 2.1.2.1.hex or 2.1.2.1_BLT.hex(if you have BLTouch installed) file provided, and choose the correct serial port for your printer.
   5. Click Flash! and wait for the process to finish.
 
   After flashing the firmware, make sure you first run the [G-Code](https://github.com/dgtaheno/artillery-Genius/blob/main/Reset%20Settings.gcode) provided, to reset to factory defaults and clear EEPROM. Copy the .gcode file on your SD Card and “print” it.
@@ -155,7 +161,7 @@ First, you need to flash the board firmware. I am using Prusa Slicer to flash.
   M500
   M501
 
-Second you need to update TFT firmware:
+Second you need to update TFT firmware(Skip this step if already updated):
 
   1. Download [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius
   2. Copy the contents of [TFT Firmware](https://github.com/dgtaheno/artillery-Genius/blob/main/SD%20TFT%20update.zip) for Artillery Genius folder in the root of the SD Card
@@ -221,6 +227,13 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+Please Provide your feedback in the [issues section](https://github.com/dgtaheno/artillery-Genius-Marlinfw/issues/new).
+
+If you like and enjoy this firmware, feel free to buy me a coffee by this button:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4N5A6BVN5KG5N)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
