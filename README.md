@@ -152,7 +152,8 @@ Or if you already installed the TFT firmware it is so much easier.
   Menu->Settings->Connection->ON
 
   Upload the new firmware click on OFF and restart the printer.
-
+  If you experience issues with this process please check this issue answer:
+  https://github.com/dgtaheno/artillery-Genius-Genius_Pro-X1-Marlinfw/issues/11#issuecomment-1794378644
 ### Installation
 
 First, you need to flash the board firmware. I am using Prusa Slicer to flash.
