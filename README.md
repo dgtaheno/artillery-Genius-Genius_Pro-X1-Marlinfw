@@ -92,20 +92,21 @@ So I went directly to https://marlinfw.org/ and learnt how to customize the late
 In order to run Marlin firmware I need also to customize and update Artillery Genius <a href="https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware">TFT</a> firmware.
 
 So the following files were generated for this project:
-
+<br />
+If you have Artillery Genius without BLTouch:
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex">Marlin 2.1.2.1.hex</a></li>
 
-
+<br />
 If you have Artillery Genius with BLTouch(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex">Marlin 2.1.2.1_BLT.hex</a></li>
-
+<br />
 If you have Artillery Genius Pro(not tested, your feedback is appreciated here):
 
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Genius-Pro-X1-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_PRO.bin">Marlin 2.1.2.1_PRO.bin</a></li>
-
+<br />
 If you have Artillery X1(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex">Marlin 2.1.2.1-X1.hex</a></li>
-
+<br />
 And these files are general and common for all these versions(Artillery Genius(with and without BLT/Genius Pro / X1)):
 
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
