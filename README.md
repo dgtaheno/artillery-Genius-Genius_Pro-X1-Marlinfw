@@ -93,6 +93,7 @@ In order to run Marlin firmware I need also to customize and update Artillery Ge
 
 So the following files were generated for this project:
 <br />
+<br />
 If you have Artillery Genius without BLTouch:
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1.hex">Marlin 2.1.2.1.hex</a></li>
 
