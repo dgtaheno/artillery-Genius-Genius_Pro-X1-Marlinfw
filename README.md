@@ -103,8 +103,11 @@ If you have Artillery Genius with BLTouch(not tested, your feedback is appreciat
 If you have Artillery Genius Pro(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Genius-Pro-X1-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_PRO.bin">Marlin 2.1.2.1_PRO.bin</a></li>
 <br />
-If you have Artillery X1(not tested, your feedback is appreciated here):
+If you have Artillery X1 without BL Touch(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1.hex">Marlin 2.1.2.1-X1.hex</a></li>
+<br />
+If you have Artillery X1 with BL Touch(not tested, your feedback is appreciated here):
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1-X1-BLT.hex">Marlin 2.1.2.1-X1-BLT.hex</a></li>
 <br />
 And these files are general and common for all these versions(Artillery Genius(with and without BLT/Genius Pro / X1)):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/SD%20TFT%20update.zip">SD TFT update.zip</a></li>
