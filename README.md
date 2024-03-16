@@ -100,6 +100,9 @@ If you have Artillery Genius without BLTouch:
 If you have Artillery Genius with BLTouch(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_BLT.hex">Marlin 2.1.2.1_BLT.hex</a></li>
 <br />
+If you have Artillery Genius with BLTouch and full metal hotend and want to reach temperatures up to 295 C(not tested, your feedback is appreciated here):
+<li><a href="https://github.com/dgtaheno/artillery-Genius-Genius_Pro-X1-Marlinfw/blob/a71e80a30e41934ef811bd6a04cabd763868d586/Marlin%202.1.2.1_BLT-295C.hex">Marlin 2.1.2.1_BLT-295C.hex</a></li>
+<br />
 If you have Artillery Genius Pro(not tested, your feedback is appreciated here):
 <li><a href="https://github.com/dgtaheno/artillery-Genius-Genius-Pro-X1-Marlinfw/blob/Marlin-2.1.2.1/Marlin%202.1.2.1_PRO.bin">Marlin 2.1.2.1_PRO.bin</a></li>
 <br />
